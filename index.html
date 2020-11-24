@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Greg Powell | Software Developer | Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Greg Powell</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section id="home">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <img src="./images/mebw.png" alt="Portrait" class="prof">
+                
+                
+                    <h2>Welcome.</h2>
+                    <p>My name is Greg Powell and I live in Minneapolis, Minnesota. I moved here from Montana after
+                        living there my whole life two years ago. The Twin Cities are progressive, exciting, and filled
+                        with beautiful people. </p>
+                    <br>
+
+                    <p>I graduated with a bachelor's degree in Psychology and started a career in health and human
+                        services. Although I loved many aspects of that work, I soon discovered it wasn't for me in the
+                        long term. I think the skills I learned as well as the many challenging experiences encountered
+                        will benefit me in this new career.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me -->
+        <section id="about" class="dark-background">
+            <h3>About me</h3>
+            <div class="flex-container">
+                <div class="flex-item flex-item-double">
+                    <p>I have always had an interest in technology and the inner workings of programming. After taking
+                        an intro to web design course in the last semester of my undergrad, I became more intrigued.
+                        Afterwards, I wished I would have pursued computer science from the beginning. I have always
+                        loved art, building/creating things, and enjoying any process in which I can see the results of
+                        a process.
+                        I'm inspired after taking the leap towards this career change and having the chance to work on a
+                        team of other like-minded individuals. I enjoy working on the front end with CSS and HTML due to
+                        the creative energy it fulfills. I can spend hours changing and interacting with different
+                        fonts, color schemes, and layouts. I'm excited to be introduced to the other aspects of software
+                        engineering, which will expand what services I can further provide.</p>
+
+                    <p>In my free time, I love fly fishing and being in nature, which was more common when I lived in
+                        Montana. I still like to get out when I can and check out local parks, lakes, and trails. I love
+                        to skateboard and cycle around the city. When I'm relaxing at home, I like to play video games,
+                        cook and watch various media with my partner.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <a href="https://github.com/Gpowelll/quiz-app" target="_blank"><img
+                            src="./images/placeholderCopy.png" alt="Quiz App" class="place-holder"></a>
+                    <h4>Quiz App</h4>
+                    <p>This is a description of the Quiz App I built. I'll share what my goal was in creating it, the
+                        skills/languages I applied, and what I learned doing it.</p>
+                        <p>Click <a href="https://github.com/Gpowelll/quiz-app" target="_blank">here</a> for
+                            github repo!</p>
+
+                </div>
+                <div class="flex-item">
+                    <a href="https://github.com/Gpowelll/bookmark-app" target="_blank"><img
+                            src="./images/placeholderCopy.png" alt="Bookmark App" class="place-holder"></a>
+                    <h4>Bookmark App</h4>
+                    <p>This is a description of the Bookmark App I built. I'll share what my goal was in creating it,
+                        the skills/languages I applied, and what I learned doing it.</p>
+                        <p>Click <a href="https://github.com/Gpowelll/bookmark-app" target="_blank">here</a> for
+                            github repo!</p>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <a href="https://github.com/Gpowelll/pet-appointment-app" target="_blank"><img
+                            src="./images/placeholderCopy.png" alt="Pet App" class="place-holder"></a>
+                    <h4>Pet Appointment App</h4>
+                    <p>This is a description of the Pet Appointment App I built. I'll share what my goal was in creating
+                        it, the skills/languages I applied, and what I learned doing it.</p>
+                        <p>Click <a href="https://github.com/Gpowelll/pet-appointment-app" target="_blank">here</a> for
+                            github repo!</p>
+                </div>
+                <div class="flex-item">
+                    <a href="https://github.com/Gpowelll/team-project-app" target="_blank"><img
+                            src="./images/placeholderCopy.png" alt="Team Project" class="place-holder"></a>
+                    <h4>Team Project App</h4>
+                    <p>This is a description of the Team Project App I built. I'll share what my goal was in creating
+                        it, the skills/languages I applied, and what I learned doing it.</p>
+                        <p>Click <a href="https://github.com/Gpowelll/team-project-app" target="_blank">here</a> for
+                            github repo!</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact" class="dark-background">
+            <h3>Contact</h3>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <form action="https://formspree.io/f/xjvpokyv" method="POST">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="flex-item flex-item-double">
+                    <h4>Phone #: <a href="tel:406-853-6777">(406)853-6777</a></h4>
+                    <br>
+                    <br>
+                    <br>
+                    <h4>Email: <a href="mailto:gregtpowell@gmail.com">gregtpowell@gmail.com</a></h4>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-icons">
+            <a href="https://www.github.com/Gpowelll" target="_blank">
+                <img src="./images/github.png" alt="Github" style="width:100%"></a>
+            <a href="https://www.linkedin.com/in/greg-powell-65105753/" target="_blank">
+                <img src="./images/linkedin.png" alt="LinkedIn" style="width:100%"></a>
+            <a href="mailto:gregtpowell@gmail.com" target="_blank">
+                <img src="./images/gmail.png" alt="Gmail" style="width:100%"></a>
+
+        </div>
+    </footer>
+
+</html>

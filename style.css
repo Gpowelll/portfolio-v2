@@ -1,0 +1,252 @@
+/* -------  General Styles ------- */
+
+.prof {
+  /*This is the profile picture at the top */
+  width: 200px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: Helvetica, Arial, Arial, Helvetica, sans-serif;
+  background-color: rgb(82, 124, 124);
+  overflow-x: hidden;
+}
+
+header {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(1, 0, 7);
+  text-align: center;
+  letter-spacing: 8px;
+  text-shadow: rgb(201, 162, 112);
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+/* ---  Navigation --- */
+
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: rgb(12, 12, 88);
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+/*Footer Nav Bar*/
+
+footer {
+  position: flex;
+}
+
+.footer-distributed {
+  display: flex;
+  background-color: whitesmoke;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 0px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section.dark-background {
+  background-color: rgb(236, 175, 125);
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+footer {
+  background-color: whitesmoke;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.place-holder{
+    width: 100%;
+
+}
+
+/* ---  Typography --- */
+
+h2 {
+  font-size: 29px;
+  font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 700px;
+  color: whitesmoke;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-weight: 300px;
+  letter-spacing: 2px;
+  margin: 0 0 0 28px;
+  color: whitesmoke;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 160%;
+  font-size: small;
+  font-weight: 200;
+}
+
+main a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main a:link {
+  color: black;
+}
+main a:visited {
+  color: rgb(15, 7, 83);
+}
+main a:hover {
+  color: whitesmoke;
+}
+a:active {
+  color: #403933;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  flex: 1;
+  margin: 30px;
+}
+
+.flex-item-double {
+  flex: 2;
+
+}
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 10px 80px 10px 80px;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+
+  h1 {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 60px;
+  }
+  h3 {
+      font-size: 60px;
+  }
+  h4 {
+      font-size: px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 30px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+
+  .prof {
+    /*This is the profile picture at the top */
+    width: 400px;
+    padding: 0 60px 0 0px;
+  }
+
+  p{
+      font-size: medium;
+      line-height: 20pt;
+  }
+}
+
+/* Contact Form Design */
+
+form {
+  padding-right: 40px;
+
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
